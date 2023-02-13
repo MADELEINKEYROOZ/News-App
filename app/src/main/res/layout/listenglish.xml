@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginEnd="5dp"
+        android:padding="3dp" >
+        <ImageView
+            android:id="@+id/enThb"
+            android:contentDescription="@string/app_name"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/news1" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:contentDescription="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24" />
+
+    <TextView
+        android:id="@+id/enTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="115dp"
+        android:paddingBottom="10dp"
+        android:paddingEnd="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/enDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enTitle"
+        android:layout_alignStart="@+id/enTitle"
+        android:textColor="#cc0000"
+        android:textSize="15sp" />
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.EnglishDetailsActivity"
+    android:fillViewport="true"
+    android:scrollbars="none">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/DetailsTit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="Title 1"
+            />
+
+        <TextView
+            android:id="@+id/DetailsDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/DetailsTit"
+            android:text="Date 1"
+            />
+
+        <ImageView
+            android:id="@+id/DetailsImg"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/DetailsDate"
+            android:src="@drawable/news1" />
+
+        <TextView
+            android:id="@+id/DetailsDesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@+id/DetailsImg"
+            android:text="Desc 1"
+            />
+    </RelativeLayout>
+</ScrollView>

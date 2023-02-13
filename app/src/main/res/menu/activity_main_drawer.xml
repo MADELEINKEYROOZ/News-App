@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_newspaper_24"
+            android:title="English News" />
+        <item
+            android:id="@+id/nav_arnews"
+            android:icon="@drawable/ic_baseline_newspaper_24"
+            android:title="Arabic News" />
+        <item
+            android:id="@id/nav_contact"
+            android:icon="@drawable/ic_baseline_contact_phone_24"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_album"
+            android:icon="@drawable/ic_baseline_photo_album_24"
+            android:title="Album" />
+    </group>
+</menu>
